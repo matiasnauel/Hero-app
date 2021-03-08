@@ -6,7 +6,7 @@ import { MarvelScreen } from '../components/marvel/MarvelScreen'
 import { SearchScreen } from '../components/search/SearchScreen'
 import { Navbar } from '../components/ui/Navbar'
 
-export const DashboardRoutes = () => {
+export const DashboardRoutes = ({history}) => {
     return (
         <>
             <Navbar />
